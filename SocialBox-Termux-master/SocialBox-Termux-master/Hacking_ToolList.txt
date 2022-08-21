@@ -1,0 +1,197 @@
+2. Hydra
+Hydra is considered as most powerful Termux tool out there. It uses a brute force approach on the Username and Password of services such as—telnet, ssh, FTP, etc.
+
+Hydra is the best tool for termux as a brute force ethical hacking software to crack usernames and passwords.
+
+This tool works around coding concepts. It gives cybersecurity professionals and IT technologists the chance to show how simple it is to get unauthorized access from a remote system.
+
+Commands to install Hydra on Termux
+pkg update && pkg upgrade -y
+
+pkg install hydra
+
+ 
+
+3. Metasploit
+Metasploit is not just a Termux hacking tool. It is an entire framework of exploit tools. Metasploit is an infrastructure that one can use to make a set of hacking tools.
+
+Metasploit is a freemium tool, but it is one of the most popular instruments in cybersecurity. It allows white-hat hackers to find vulnerabilities on various platforms.
+
+Metasploit has a community of more than 200,000 users and employees to solve queries and information needed. It also helps to identify any vulnerabilities in the system.
+
+Metasploit is one of the best Termux tools for android hacking.
+
+Commands to install Metasploit on Termux
+pkg update && pkg upgrade -y
+
+pkg install unstable-repo
+
+pkg install Metasploit
+
+ 
+
+4. SQLmap
+The SQLMAP tool allows you to inspect websites for the existence of any SQL injection vulnerabilities. Such as XSS vulnerabilities, or exploit SQL injection.
+
+SQLmap supports various types of SQL injections and a variety of databases.
+
+With the help of SQLmap, it is possible to run checks on the website to inspect if any website is vulnerable to SQL injection or not.
+
+SQLmap is accessible for all the major platforms. One can easily add SQLMAP on Termux.
+
+Commands to install SQLmap on Termux
+pkg update && pkg upgrade -y
+
+apt install python python2
+
+pkg install git
+
+git clone https://github.com/sqlmapproject/sqlmap
+
+cd sqlmap
+
+chmod +x sqlmap.py
+
+python2 sqlmap.py
+
+ 
+
+5. Wireshark
+Wireshark is a famous ethical hacking tool in 2021 that can detect vulnerabilities within a network and many firewall rules.
+
+Hundreds of cybersecurity executives use Wireshark to detect networks, capture erroneous sent packets, and scan many standards and protocols.
+
+Wireshark assists in reading real-time data from Ethernet, IEEE 802.11, PPP / HDLC, ATM, Bluetooth, USB, Token Ring, Frame-relay, FDDI, etc.
+
+Wireshark has CLI support; this version is called TShark.
+
+Commands to install Wireshark on Termux
+apt update && apt upgrade -y
+
+pkg install xterm
+
+apt install tigervnc
+
+apt install tigervnc-viewer
+
+pkg install x11-repo
+
+apt install Wireshark-gtk
+
+ 
+
+6. Social Engineering Toolkit
+TrustedSec’s Social-Engineer Toolkit is an advanced structure that emulates many types of attacks in cybersecurity. For example, IDs collection, phishing attacks, etc.
+
+One can see that they can utilize the capability to replace SMS or any other messaging tool from the Social-Engineer Toolkit.
+
+Social Engineering Toolkit is written in Python programming language. It is the quality test for safeguarding against any unauthorized access with more than 3 million downloads.
+
+It automates attacks and generates remote mail systems, malicious websites, extensions, etc.
+
+Command to install the Social Engineering Toolkit in Termux
+pkg update && pkg upgrade -y
+
+apt install curl -y
+
+curl -LO https://raw.githubusercontent.com/Hax4us/setoolkit/master/setoolkit.sh
+
+sh setoolkit.sh
+
+cd setoolkit
+
+./setup.py install
+
+./setoolkit
+
+ 
+
+7. Nikto
+Nikto is a software developed in Perl programming language. The goal is to provide guidelines on WEB servers, falling into the scope of a vulnerability scanner, OpenVAS.
+
+It was created to find various files, configurations, standard or insecure programs on Web servers and even web browsers.
+
+Nikto doesn’t include SQL penetration Injection issues or authorization. But the tool will only check the website for any odd files and settings, acting as a passive attack.
+
+Command to install Nikto on Termux
+apt update && apt upgrade
+
+pkg install git
+
+pkg install Perl
+
+git clone https://github.com/sullo/nikto.git
+
+cd nikto
+
+cd program
+
+ 
+
+8. Tool-X
+Tool-X is considered the best Termux hacking tool since it was specially created for Termux. With Tool-X’s help, one can download more than 370 hacking tools for Termux with just a click.
+
+Rajkumar Dusad created the Tool-X. Before Dusad invented this tool, one had to install all the required Termux hacking tools by going on Github.
+
+This tool has a list of all necessary Termux hacking tools. Post-installation, Tool-X in Termux can be easily installed in your hacking tools with one-click.
+
+Command to install Nikto on Termux
+pkg update && pkg upgrade -y
+
+pkg install git
+
+git clone https://github.com/Rajkumrdusad/Tool-X.git
+
+cd Tool-X
+
+chmod +x install.aex
+
+sh install. aex
+
+./install.aex
+
+Tool-X
+
+ 
+
+9. Fsociety Toolkit
+Fsociety Toolkit contains all the Termux hacking tools that are appeared in many TV series for cybersecurity purposes.
+
+Fsociety Hacking Tools Pack— It contains a Pen-Testing Framework, and one can have every code that a hacker needs.
+
+This tool is suitable for beginners and mid-level hackers. Fsociety Toolkit will first query on the type of attack you want to do. After that, when an attack is chosen, it will give you the best tools for that particular attack.
+
+When you have found your tool in the Fsociety Toolkit, one needs to choose the tool by typing its Tool code number. After that, the tool will be automatically installed in your Termux terminal.
+
+Command to install Fsociety Toolkit on Termux
+pkg update && pkg upgrade
+
+pkg install git
+
+pkg install python2
+
+git clone https://github.com/Manisso/fsociety.git
+
+cd fsociety
+
+chmod +x install.sh
+
+ 
+
+10. Slowrolis
+Slowloris is a low-bandwidth DoS hacking tool. The software is rewritten in Python, and it performs an HTTP Denial of Service attack that slows down or makes the small servers crash.
+
+One can also use Slowrolis to initiate a Dos attack on any website. DoS attack is a type of cybersecurity attack where many requests are suddenly sent to the website server to get crashed.
+
+Slowrolis develops a large number of HTTP requests and sends headers of packets periodically to keep the network’s connection open.
+
+Slowrolis allows never to disconnect the connection portal unless the server does so. As the server shuts down the connection, a new link has already been created. As a result, the server goes down 401 error or doesn’t fulfill any requests.
+
+Command to install Fsociety Toolkit on Termux
+pkg update && pkg upgrade -y
+
+pkg install Python
+
+pkg install slowloris
+
+slowloris
