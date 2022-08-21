@@ -1,0 +1,15 @@
+1. Nmap
+Nmap, aka Network Mapper, is a port-scanning software. This is a free hacking tool, and it is viral amongst port scanners for fast network discovery, alerting, and security monitoring.
+
+Nmap uses a wide range of services, and it utilizes raw IP packets to check if the hosts are available in the network. Nmap also lists down the services with critical information, OSs, types of firewalls, and other information.
+
+Nmap has console support as well as GUI application support. But in Termux, one should only use the CLI of Nmap.
+
+Commands to install Nmap on Termux
+
+pkg update && pkg upgrade -y
+
+pkg install curl
+
+pkg install Nmap
+
