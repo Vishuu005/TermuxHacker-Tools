@@ -1,0 +1,2 @@
+# TermuxHacker-Tools
+Termux is one of the most suggested and preferred Android applications for ethical hackers.  If you are not an ethical hacker, but you know these tools, you can still perform Ethical Hacking or Pen-testing.  Termux is a lite tool for ethical hacking. Many tools are available for Termux on the internet, so we’ve created a list of some best hacking tools for Termux and how to use them.
